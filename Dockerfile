@@ -1,6 +1,6 @@
-FROM jitesoft/lighttpd:latest
+FROM nginx:latest
 
-WORKDIR /var/www/html
+WORKDIR /usr/share/nginx/html
 
 COPY . .
 
